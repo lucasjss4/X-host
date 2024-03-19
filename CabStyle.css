@@ -1,0 +1,81 @@
+/*Para editar o flexbox do cabeçalho*/
+.virtualCab{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #293d46;
+
+}
+.virtualCab2{
+    display: flex;
+    align-items: center;  
+    margin-top: -20px;
+    margin-right: 10px;
+}
+/*Para editar o logo da empresa*/
+#logo{
+    margin-top:-15px ;
+    width: 150px;
+}
+/*Para editar os botões*/
+.pacPas{
+    list-style: none;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+/*Para editar a ancora dos botões pacotes e passagens*/
+.pacPas, a{
+    text-decoration: none;
+    color:#fff;
+    font-weight:bold;
+    font-size: 25px;   
+}
+/*Para editar o botão*/
+#entrar{
+    width: 100px;
+    padding:7px;
+    border-radius: 10px;
+    border: 2px solid #00FF00;
+    border-radius: 10px;
+    background-color: #00FF00;
+    color: #000; 
+    font-weight:bold; 
+    font-size: 25px;   
+}
+.submit{
+    list-style: none;
+}
+@media screen and (max-width:900px){
+    .virtualCab{
+    display: flex;
+    background-color: #293d46;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+    .virtualCab2{
+        display: block;
+    }
+    #imgHome{
+        width: 100%;
+    }
+    .first-benefics{
+        flex-wrap: wrap ;
+        justify-content: center;
+    }
+    #flexboxPlanos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .planoEPrecos1, .planoEPrecos2, .planoEPrecos3 , .planoEPrecos4{
+        margin-top: 20px;
+    }
+    #entrada{
+        width: 80%;
+    }
+    #name , #email  , #mensagemDoUsuario{
+        width: 90%;
+    }
+}

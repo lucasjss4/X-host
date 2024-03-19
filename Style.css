@@ -1,0 +1,233 @@
+/*Para mexer na div da imagem e do titulo*/
+#divImgHome{
+    display: flex;
+    justify-content: center;
+    background-color: #293d46;
+}
+/*Para mexer na imagem */
+#imgHome{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Para controlar o display das informações de beneficios*/
+.first-benefics{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+/*Para controlar os textos de beneficios*/
+.benefics{
+    text-align: center;
+    height: 160px;
+    width:260px;
+}
+
+/*Para controlar o titutlo de planos e preços*/
+#titlePlano{
+    text-align: center;
+    font-size: 30px;
+}
+/*Para controlar o subtitulo do planos e preços*/
+#subtitlePlano{
+    text-align: center;
+    font-size: 14px;
+    margin-top: -20px;
+    color:gray;
+}
+
+/*Para controlar a faixa de planos e preços*/
+.boxPlanosEPrecos{
+    display: flex;
+}
+#flexboxPlanos{
+    display: flex;
+    justify-content: space-around;
+}
+/*Para controlar a caixa de planos e preços*/
+.planoEPrecos1, .planoEPrecos2, .planoEPrecos3 , .planosEPrecos4 {
+    height: 300px;
+    width: 200px;   
+}
+/*Para controlar a bolinha de planos e preços*/
+.ballPlano1, .ballPlano2, .ballPlano3 , .ballPlano4{
+    border: 1px solid	#00FF7F;
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    margin-left: 60px;
+    margin-top: -135px;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    background-color:#00FF7F;
+}
+/*Para controlar a cor da bolinha do dedicado plus*/
+.ballPlano3{
+    background-color: red;
+    border-color: red;
+}
+/*Para controlar a caixa de titulo do preços*/
+.titleTipe1, .titleTipe2, .titleTipe3 , .titleTipe4{
+    width:200px ;
+    border: 1px solid #1C1C1C;
+    height: 75px;
+    margin-top: 60px;
+    background-color: #1C1C1C;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    color: #fff;
+}
+/*Para controlar o box de informações dos planos*/
+.informations1, .informations2, .informations3 , .informations4{
+    border: 1px solid #DCDCDC ;
+    background-color: #DCDCDC ;
+    width: 200px;
+    height: 100px;
+    margin-top:58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+/*Para configurar o saber mais do planos e suporte*/
+.saberMais1, .saberMais2, .saberMais3 , .saberMais4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#00FF7F;
+    font-size: 14px;
+}
+/*Para controlar a cor do saber mais dedicado plus*/
+.saberMais3{
+    background-color: red;
+
+}
+/*Para ajustar o tamanho do saber mais cloud*/
+.saberMais4{
+    width: 200px;
+}
+
+/*Para controlar a box do buscador de domínios*/
+.search{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #1C1C1C;
+}
+/*Para controlar o  tamanho e posição do titulo do buscador de domínios*/
+#titleSearch{
+    color: #fff;
+    padding: 10px;
+}
+/*Para controlar o tamanho e posição do  subtitulo do buscador*/
+#subTitleSearch{
+    color: #fff;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+/*Para controlar a posição do buscador*/
+.search-box{
+    align-items: center;
+    justify-content: center;
+}
+/*Para cotrolar o input*/
+#entrada{
+    height: 30px;
+    padding: 5px;
+    border: 2px solid gray;
+}
+/*Para controlar a posição do buscador*/
+#bottomSearch{
+    margin-top: 20px;
+}
+/*Para controlar o buscador*/
+#buscador{
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #00FF7F;
+    margin-bottom: 10px;
+}
+
+/*Aqui se controla o titulo da seção de contato*/
+#titleContact{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+/*Aqui se controla o subtitulo da seção de contato*/
+#subtitleContact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:-10px;
+    padding: 20px;
+    font-size: 18px;
+    color:#b6a9a9;
+}
+/*Aqui se controla a posição do input de nome*/
+#boxName{
+    display: flex;
+    justify-content: center;
+}
+/*Aqui se controla o input de nome*/
+#name{
+    border:#1C1C1C solid 1px;
+    padding: 10px;
+    background-color: #DCDCDC;
+    color: #1C1C1C;
+    margin-bottom: 10px;
+}
+/*Aqui se controla a posição do input de email*/
+#boxEmail{
+    display: flex;
+    justify-content: center;
+}
+/*Aqui se controla o input de email*/
+#email{
+    border:#1C1C1C solid 1px;
+    padding: 10px;
+    background-color: #DCDCDC;
+    color: #1C1C1C;
+    margin-bottom: 10px;
+}
+/*Aqui se controla a posição do textarea*/
+#boxMensagem{
+    display: flex;
+    justify-content: center;
+}
+/*Aqui se controla o textarea*/
+#mensagem{
+    border:#1C1C1C solid 1px;
+    padding: 10px;
+    background-color: #DCDCDC;
+    color: #1C1C1C;
+    margin-bottom: 10px;
+    width: 363px;
+    height: 100px;
+}
+/*Aqui se controla a posição do botão enviar*/
+#boxButtonEnviar{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/*Aqui se controla o botão enviar*/
+#enviar{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #00FF7F;
+}
+
+footer{
+    background-color: #DCDCDC;
+    text-align: center;
+}
